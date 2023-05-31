@@ -1,0 +1,30 @@
+.benchmark {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: stretch;
+  margin: 1.5rem auto;
+  text-align: center;
+  padding: 0.5rem;
+  color: #f9f8f3;
+  list-style: none;
+  font-weight: bold;
+}
+
+.benchmark li {
+  width: 1fr;
+  padding: 1rem;
+  border-radius: 12px;
+  border: 2px solid #333;
+  margin: 0.5rem;
+}
+
+.benchmark table {
+  border: 1px solid #11abff;
+  width: 100%;
+}
+
+.benchmark th,
+td {
+  width: auto;
+  border: 1px solid #11abff;
+}

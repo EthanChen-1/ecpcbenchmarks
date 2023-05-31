@@ -1,0 +1,13 @@
+.title {
+  text-align: center;
+}
+
+.background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1.5rem auto;
+  width: 100%;
+  padding: 0.5rem;
+  color: #f9f8f3;
+}

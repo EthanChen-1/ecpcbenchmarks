@@ -1,0 +1,36 @@
+.formControl {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.formControl button {
+  margin: 0.5rem;
+}
+
+.formControl label {
+  font-weight: bold;
+  margin: 0.5rem;
+}
+
+.formControl input,
+.formControl text {
+  padding: 1rem;
+  border-radius: 12px;
+  border: 2px solid #333;
+  margin: 0.5rem 0rem;
+}
+
+.formControl select {
+  padding: 0.75rem;
+  margin-bottom: 0.5rem;
+  border: 2px solid #333;
+}
+
+.formControl input:focus,
+.formControl textarea:focus,
+.formControl select:focus {
+  outline: none;
+  border-color: #11abff;
+}

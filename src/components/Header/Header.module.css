@@ -1,0 +1,24 @@
+.container {
+  display: block;
+}
+
+.container section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container h1 {
+  margin: 2rem 0.5em;
+  color: #02c8f4;
+}
+
+.container nav {
+  margin: 0.5em;
+}
+
+.container nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 0.5rem;
+}

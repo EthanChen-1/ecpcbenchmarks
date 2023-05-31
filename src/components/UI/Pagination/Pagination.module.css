@@ -1,0 +1,24 @@
+.paginationControl {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.paginationControl nav {
+  display: inherit;
+}
+
+.paginationControl ul {
+  display: inherit;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.paginationControl li {
+  list-style: none;
+  padding: 1rem;
+  border-radius: 12px;
+  border: 1px solid #11abff;
+  background-color: #02c8f4;
+  margin: 0.5rem;
+}
